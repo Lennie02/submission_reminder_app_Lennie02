@@ -4,14 +4,14 @@ This app helps you keep track of student assignment submissions using simple com
 
 ## How It's Set Up
 
-The app uses a clear folder structure. When you set it up (for example, from a folder named `submission_reminder_Lennie` and you enter `John` as your name), here's how the files will be arranged:
+The app uses a clear folder structure. When you set it up (for example, from a folder named `submission_reminder_Lennie` and you enter `José` as your name), here's how the files will be arranged:
 
 ```
 submission_reminder_Lennie/
 ├── copilot_shell_script.sh
 ├── create_environment.sh
 ├── README.md
-└── submission_reminder_{YourName}/  # This is your app folder
+└── submission_reminder_{YourName}/  # This is your personal app folder
     ├── app/
     │   └── reminder.sh              # The main part of the reminder
     ├── modules/
@@ -42,7 +42,7 @@ Each file and folder has a clear job:
 
 Here are the basic requirements to run the app:
 
-* **Operating System:** Linux (it works on `zsh` and `bash` shells).
+* **Operating System:** Linux.
 * **Permissions:** You need permission to create and change files in the folder where you set up the app (e.g., `submission_reminder_Lennie`).
 
 ## How to Get Started
